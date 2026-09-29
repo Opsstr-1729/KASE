@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Ticker } from './components/Ticker';
 import { Hero } from './components/Hero';
+import { BilateralScrollBanner } from './components/BilateralScrollBanner';
 import { AboutAndLeadership } from './components/AboutAndLeadership';
 import { LeadershipSection } from './components/LeadershipSection';
 import { InstitutesShowcase } from './components/InstitutesShowcase';
@@ -45,6 +46,9 @@ export default function App() {
       <main className="flex-1">
         {/* Hero Section: High Impact Visual, Clear Value Prop & Interactive Spotlight */}
         <Hero onOpenRegistry={() => setIsRegistryModalOpen(true)} />
+
+        {/* International Collaboration Scrolling Highlight Banner: Deutsche Bahn AG LoI */}
+        <BilateralScrollBanner />
 
         {/* Strategic Mandate & Convergence Framework */}
         <AboutAndLeadership />

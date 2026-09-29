@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Image, FileText, Scale, Download, Eye } from 'lucide-react';
 import { NOTICES, GalleryItem } from '../data/kaseData';
-import mouImg from '../assets/images/gallery_international_mou_1790669527144.jpg';
+import dbLoiImg from '../assets/images/kase_deutsche_bahn_loi.jpg';
 import labImg from '../assets/images/hero_kase_global_skills_1790669485919.jpg';
-import iiicImg from '../assets/images/institute_iiic_campus_1790669500805.jpg';
-import ksidImg from '../assets/images/institute_ksid_design_1790669515173.jpg';
+import iiicRealImg from '../assets/images/iiic_campus_real.png';
+import ksidRealImg from '../assets/images/ksid_campus_real.png';
 
 export const GalleryAndNotices: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'gallery' | 'orders' | 'rti'>('gallery');
@@ -14,12 +14,12 @@ export const GalleryAndNotices: React.FC = () => {
   const galleryItems: GalleryItem[] = [
     {
       id: 'g-1',
-      title: 'Exchange of Letter of Intent with Deutsche Bahn AG',
+      title: 'Letter of Intent (LoI) Exchanged Between KASE and Deutsche Bahn AG',
       caption:
-        'KASE delegates formalized bilateral partnership in Frankfurt to facilitate technical apprenticeship and international mobility pathways for Kerala vocational graduates.',
+        'KASE and Deutsche Bahn AG formalized their collaboration through the exchange of a Letter of Intent (LoI) to strengthen international skill development initiatives.',
       date: 'February 2026',
       category: 'International',
-      image: mouImg,
+      image: dbLoiImg,
     },
     {
       id: 'g-2',
@@ -37,7 +37,7 @@ export const GalleryAndNotices: React.FC = () => {
         'Senior engineers from top civil construction conglomerates reviewing heavy simulator facilities and BIM project studios.',
       date: 'December 2025',
       category: 'Workshops',
-      image: iiicImg,
+      image: iiicRealImg,
     },
     {
       id: 'g-4',
@@ -46,7 +46,7 @@ export const GalleryAndNotices: React.FC = () => {
         'Showcasing student-designed sustainable bamboo ergonomics, UI/UX interaction systems, and medical diagnostics hardware.',
       date: 'November 2025',
       category: 'Skill Competitions',
-      image: ksidImg,
+      image: ksidRealImg,
     },
   ];
 
