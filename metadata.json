@@ -1,0 +1,6 @@
+{
+  "name": "Kerala Academy for Skills Excellence (KASE)",
+  "description": "Official portal of Kerala Academy for Skills Excellence (KASE), State Skill Development Mission under Department of Labour and Skills, Government of Kerala.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
