@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, Landmark } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import shriSatheeshanImg from '../assets/images/shri_vd_satheeshan.png';
 import shriShibuImg from '../assets/images/shri_shibu_baby_john.png';
 
@@ -38,9 +38,8 @@ export const LeadershipSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#0e5774] uppercase tracking-widest mb-2">
-            <Landmark className="w-3.5 h-3.5 text-[#0e5774]" />
-            <span>State Leadership & Governance</span>
+          <div className="text-xs font-semibold text-[#0e5774] uppercase tracking-widest mb-2">
+            State Leadership & Governance
           </div>
           <h2 className="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-neutral-900 tracking-tight">
             Guiding Kerala's Skills Mission

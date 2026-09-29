@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowRight, ShieldCheck, Pause, Play, ChevronLeft, ChevronRight, Globe, Building2, Cpu, Compass } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Pause, Play, ChevronLeft, ChevronRight } from 'lucide-react';
 import dbLoiImg from '../assets/images/kase_deutsche_bahn_loi.jpg';
 import heroLabImg from '../assets/images/hero_kase_global_skills_1790669485919.jpg';
 import iiicRealImg from '../assets/images/iiic_campus_real.png';
@@ -23,7 +23,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRegistry }) => {
       caption:
         'KASE and Deutsche Bahn AG formalized their collaboration through the exchange of a Letter of Intent (LoI) to strengthen international skill development initiatives.',
       partner: 'Deutsche Bahn AG (Germany) & KASE',
-      icon: Globe,
     },
     {
       id: 1,
@@ -33,7 +32,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRegistry }) => {
       caption:
         'Statewide advanced mechatronics, pneumatic automation & robotics centers for youth skilling across all 14 districts.',
       partner: 'Centres of Excellence · 14 Districts',
-      icon: Cpu,
     },
     {
       id: 2,
@@ -43,7 +41,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRegistry }) => {
       caption:
         '20-acre specialized international campus at Chavara, Kollam, training in BIM, heavy machinery & green construction.',
       partner: 'ULCCS & KASE Collaboration',
-      icon: Building2,
     },
     {
       id: 3,
@@ -53,7 +50,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRegistry }) => {
       caption:
         'Mentored by National Institute of Design (NID), shaping top talent in digital UX, industrial ergonomics and craft innovation.',
       partner: 'KSID Campus · Chandanathope',
-      icon: Compass,
     },
   ];
 

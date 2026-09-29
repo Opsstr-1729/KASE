@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Globe, ArrowUpRight, Sparkles } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import dbLoiImg from '../assets/images/kase_deutsche_bahn_loi.jpg';
 
 export const BilateralScrollBanner: React.FC = () => {
@@ -16,11 +16,8 @@ export const BilateralScrollBanner: React.FC = () => {
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          {/* Badge */}
+          {/* Badge without AI icons */}
           <div className="flex items-center gap-2 shrink-0">
-            <span className="flex items-center justify-center w-7 h-7 rounded-lg bg-white/15 text-cyan-200 border border-white/20">
-              <Globe className="w-4 h-4" />
-            </span>
             <div className="flex flex-col">
               <span className="text-[10px] font-mono uppercase tracking-widest text-cyan-300 font-bold">
                 International Milestone
@@ -52,9 +49,8 @@ export const BilateralScrollBanner: React.FC = () => {
                 <h3 className="text-xs sm:text-sm font-extrabold text-white tracking-tight truncate">
                   Letter of Intent (LoI) Exchanged Between KASE and Deutsche Bahn AG
                 </h3>
-                <span className="hidden lg:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
-                  <Sparkles className="w-2.5 h-2.5" />
-                  <span>Active Partnership</span>
+                <span className="hidden lg:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+                  Active Partnership
                 </span>
               </div>
               <p className="text-[11px] sm:text-xs text-cyan-100 font-normal line-clamp-2 leading-relaxed">

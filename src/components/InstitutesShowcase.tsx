@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Building2, Compass, Award, ExternalLink, MapPin, Check, ChevronRight } from 'lucide-react';
+import { ExternalLink, ChevronRight } from 'lucide-react';
 import iiicCampusImg from '../assets/images/iiic_campus_real.png';
 import iiicLogoImg from '../assets/images/iiic_official_logo.png';
 import ksidCampusImg from '../assets/images/ksid_campus_real.png';
@@ -14,9 +14,8 @@ export const InstitutesShowcase: React.FC = () => {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
           <div className="max-w-2xl">
-            <div className="flex items-center gap-2 text-xs font-semibold text-[#0e5774] uppercase tracking-wider mb-2">
-              <Building2 className="w-3.5 h-3.5 text-[#0e5774]" />
-              <span>Flagship State Institutions</span>
+            <div className="text-xs font-semibold text-[#0e5774] uppercase tracking-wider mb-2">
+              Flagship State Institutions
             </div>
             <h2 className="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-neutral-900 tracking-tight">
               Apex Academies Founded by KASE
@@ -97,10 +96,9 @@ export const InstitutesShowcase: React.FC = () => {
               <div>
                 {/* Institute Header with Official IIIC Logo */}
                 <div className="flex items-center justify-between gap-4 mb-4 pb-4 border-b border-neutral-200">
-                  <div className="flex items-center gap-2 text-xs font-semibold text-[#0e5774]">
-                    <MapPin className="w-3.5 h-3.5" />
+                  <div className="text-xs font-semibold text-[#0e5774]">
                     <span>Chavara, Kollam, Kerala</span>
-                    <span className="text-neutral-400">·</span>
+                    <span className="text-neutral-400 mx-1.5">·</span>
                     <span>Operated with ULCCS</span>
                   </div>
                   <img
@@ -120,23 +118,19 @@ export const InstitutesShowcase: React.FC = () => {
                   infrastructure technologies.
                 </p>
 
-                {/* Key Features */}
+                {/* Key Features without AI check icons */}
                 <div className="space-y-2.5 mb-6 text-xs text-neutral-700">
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>State-of-the-art Hydraulic Excavator & Crane Simulators</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">State-of-the-art Hydraulic Excavator & Crane Simulators</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>Autodesk & Bentley Authorized Training Center</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">Autodesk & Bentley Authorized Training Center</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>Postgraduate, Technician, and Supervisory Certification Tracks</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">Postgraduate, Technician, and Supervisory Certification Tracks</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>90%+ Placement Record with Top Infrastructure Conglomerates</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">90%+ Placement Record with Top Infrastructure Conglomerates</span>
                   </div>
                 </div>
 
@@ -196,10 +190,9 @@ export const InstitutesShowcase: React.FC = () => {
               <div>
                 {/* Institute Header with Official KSID Logo */}
                 <div className="flex items-center justify-between gap-4 mb-4 pb-4 border-b border-neutral-200">
-                  <div className="flex items-center gap-2 text-xs font-semibold text-[#0e5774]">
-                    <Compass className="w-3.5 h-3.5" />
+                  <div className="text-xs font-semibold text-[#0e5774]">
                     <span>Chandanathope, Kollam, Kerala</span>
-                    <span className="text-neutral-400">·</span>
+                    <span className="text-neutral-400 mx-1.5">·</span>
                     <span>Mentored by NID Ahmedabad</span>
                   </div>
                   <img
@@ -219,23 +212,19 @@ export const InstitutesShowcase: React.FC = () => {
                   experience, industrial ergonomics, and traditional craft innovation.
                 </p>
 
-                {/* Key Features */}
+                {/* Key Features without AI check icons */}
                 <div className="space-y-2.5 mb-6 text-xs text-neutral-700">
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>Postgraduate Diploma Programs in Integrated Digital & Physical Design</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">Postgraduate Diploma Programs in Integrated Digital & Physical Design</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>Specialized Ceramic, Wood, Apparel & Ergonomics Prototype Labs</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">Specialized Ceramic, Wood, Apparel & Ergonomics Prototype Labs</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>Interdisciplinary Research in Sustainable Materials and Vernacular Craft</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">Interdisciplinary Research in Sustainable Materials and Vernacular Craft</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-[#0e5774] shrink-0" />
-                    <span>Design Incubation & Commercial Intellectual Property Center</span>
+                  <div className="pl-3 border-l-2 border-[#0e5774]">
+                    <span className="font-medium">Design Incubation & Commercial Intellectual Property Center</span>
                   </div>
                 </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, CheckCircle2, Award, Landmark, BookOpen, ShieldCheck, Globe, Cpu } from 'lucide-react';
+import { FileText, BookOpen } from 'lucide-react';
 
 export const AboutAndLeadership: React.FC = () => {
   return (
@@ -7,9 +7,8 @@ export const AboutAndLeadership: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mb-12 lg:mb-16">
-          <div className="flex items-center gap-2 text-xs font-semibold text-[#0e5774] uppercase tracking-wider mb-2">
-            <Landmark className="w-3.5 h-3.5 text-[#0e5774]" />
-            <span>State Skill Development Mission</span>
+          <div className="text-xs font-semibold text-[#0e5774] uppercase tracking-wider mb-2">
+            State Skill Development Mission
           </div>
           <h2 className="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-neutral-900 tracking-tight">
             Convergence of Skill Initiatives across Kerala
@@ -42,52 +41,40 @@ export const AboutAndLeadership: React.FC = () => {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-neutral-100">
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#0e5774] shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
-                      Apex Quality Audits
-                    </h4>
-                    <p className="text-xs text-neutral-500 mt-0.5">
-                      Rigorous accreditation norms for private & public training centers.
-                    </p>
-                  </div>
+                <div className="pl-3 border-l-2 border-[#0e5774]">
+                  <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
+                    Apex Quality Audits
+                  </h4>
+                  <p className="text-xs text-neutral-500 mt-0.5">
+                    Rigorous accreditation norms for private & public training centers.
+                  </p>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#0e5774] shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
-                      International Mobility
-                    </h4>
-                    <p className="text-xs text-neutral-500 mt-0.5">
-                      Direct bilateral pathways with European and Asian industrial employers.
-                    </p>
-                  </div>
+                <div className="pl-3 border-l-2 border-[#0e5774]">
+                  <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
+                    International Mobility
+                  </h4>
+                  <p className="text-xs text-neutral-500 mt-0.5">
+                    Direct bilateral pathways with European and Asian industrial employers.
+                  </p>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#0e5774] shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
-                      Kerala Skill Registry
-                    </h4>
-                    <p className="text-xs text-neutral-500 mt-0.5">
-                      Statewide database of authenticated, certified trade specialists.
-                    </p>
-                  </div>
+                <div className="pl-3 border-l-2 border-[#0e5774]">
+                  <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
+                    Kerala Skill Registry
+                  </h4>
+                  <p className="text-xs text-neutral-500 mt-0.5">
+                    Statewide database of authenticated, certified trade specialists.
+                  </p>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#0e5774] shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
-                      Industry Co-Investment
-                    </h4>
-                    <p className="text-xs text-neutral-500 mt-0.5">
-                      Centres of Excellence co-funded with global market leaders.
-                    </p>
-                  </div>
+                <div className="pl-3 border-l-2 border-[#0e5774]">
+                  <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wide">
+                    Industry Co-Investment
+                  </h4>
+                  <p className="text-xs text-neutral-500 mt-0.5">
+                    Centres of Excellence co-funded with global market leaders.
+                  </p>
                 </div>
               </div>
             </div>
@@ -112,13 +99,13 @@ export const AboutAndLeadership: React.FC = () => {
             </div>
           </div>
 
-          {/* Right: Statutory Pillars & Convergence Highlights */}
+          {/* Right: Statutory Pillars & Convergence Highlights (No AI Icons) */}
           <div className="lg:col-span-5 flex flex-col justify-between gap-4">
             <div className="bg-white p-6 rounded-2xl border border-neutral-200 shadow-2xs flex-1 flex flex-col justify-between">
               <div>
-                <div className="w-10 h-10 rounded-xl bg-[#eff7fa] text-[#0e5774] flex items-center justify-center mb-3 border border-[#bcdbe7]">
-                  <Globe className="w-5 h-5" />
-                </div>
+                <span className="inline-block text-[11px] font-mono font-bold text-[#0e5774] bg-[#eff7fa] px-2.5 py-1 rounded border border-[#bcdbe7] mb-3">
+                  PILLAR 01 · GLOBAL TRACK
+                </span>
                 <h4 className="font-display font-bold text-base text-neutral-900 mb-1">
                   Global Employment Linkages
                 </h4>
@@ -134,11 +121,11 @@ export const AboutAndLeadership: React.FC = () => {
 
             <div className="bg-white p-6 rounded-2xl border border-neutral-200 shadow-2xs flex-1 flex flex-col justify-between">
               <div>
-                <div className="w-10 h-10 rounded-xl bg-[#eff7fa] text-[#0e5774] flex items-center justify-center mb-3 border border-[#bcdbe7]">
-                  <Cpu className="w-5 h-5" />
-                </div>
+                <span className="inline-block text-[11px] font-mono font-bold text-[#0e5774] bg-[#eff7fa] px-2.5 py-1 rounded border border-[#bcdbe7] mb-3">
+                  PILLAR 02 · INDUSTRY 4.0
+                </span>
                 <h4 className="font-display font-bold text-base text-neutral-900 mb-1">
-                  Industry 4.0 Skilling Hubs
+                  Statewide Skilling Hubs
                 </h4>
                 <p className="text-xs text-neutral-600 leading-relaxed">
                   Advanced mechatronics, pneumatic automation, and smart BIM modeling simulators establishing
@@ -154,9 +141,8 @@ export const AboutAndLeadership: React.FC = () => {
             <div className="p-4 bg-[#eff7fa] rounded-xl border border-[#bcdbe7] text-xs text-[#0e5774] flex items-center justify-between">
               <div>
                 <span className="font-bold block text-[#0e5774]">Office of the Managing Director, KASE</span>
-                <span className="text-[#136c8f] text-[11px]">Department of Labour and Skills, Govt. Secretariat</span>
+                <span className="text-[#136c8f] text-[11px]">Department of Labour and Skills, Govt. Secretariat, Thiruvananthapuram</span>
               </div>
-              <Award className="w-5 h-5 text-[#0e5774] shrink-0" />
             </div>
           </div>
         </div>
